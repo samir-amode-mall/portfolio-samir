@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- ===== HEADER / NAVBAR ===== -->
+<!-- ===== NAVBAR ===== -->
 <header>
     <nav class="navbar">
         <div class="logo">Samir Amode Mall</div>
@@ -24,48 +24,140 @@
 <section class="projects">
     <div class="container">
         <h1>💼 Mes projets</h1>
-        <p>Voici quelques projets marquants réalisés durant mon parcours à l’ENSICAEN et lors de mes expériences professionnelles.</p>
+        <p>Voici une sélection de mes réalisations académiques et personnelles, illustrant mes compétences en développement logiciel, cybersécurité et conception d’applications.</p>
 
         <div class="project-grid">
 
-            <!-- Projet Oaklen -->
+            <!-- PROJET 1 -->
             <div class="project-card">
-                <h2>🔒 Projet industriel – Outil d’inventaire PCI-DSS</h2>
-                <h3>Oaklen Consulting | ENSICAEN (2025–2026)</h3>
+                <h2>🧠 Détection de propagande terroriste</h2>
+                <h3>Projet 2A - ENSICAEN (2024–2025)</h3>
                 <p>
-                    Conception et développement d’un outil d’inventaire de terminaux de paiement conforme au standard PCI-DSS.
-                    Participation à la refonte de l’architecture full API, conception du portail web et de l’application mobile
-                    en collaboration avec les équipes Oaklen.
+                    Développement d’un logiciel d’analyse de textes basé sur un modèle <strong>DistilBERT</strong> pour détecter les contenus liés à la propagande terroriste.
+                    L’application intègre l’analyse <strong>texte, image et audio</strong> et génère un rapport PDF.
                 </p>
-                <span class="tag">Cybersécurité</span>
-                <span class="tag">E-paiement</span>
-                <span class="tag">PCI-DSS</span>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Hugging Face</span>
+                    <span class="tag">PyQt5</span>
+                    <span class="tag">spaCy</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                    <a href="pdfs/rapport_projet_2A-Detection_propagande-terroriste.pdf" target="_blank" class="btn-small-outline">📄 Voir le rapport</a>
+                </div>
             </div>
 
-            <!-- Stage Malaisie -->
+            <!-- PROJET 2 -->
             <div class="project-card">
-                <h2>🌍 Stage de recherche – Chiffrement d’image</h2>
+                <h2>🔒 Chiffrement d’image – Stage de recherche</h2>
                 <h3>Universiti Malaya | Kuala Lumpur (2025)</h3>
                 <p>
-                    Développement d’un algorithme de chiffrement d’images en Python,
-                    création d’une interface graphique et réalisation de tests de robustesse.
-                    Projet axé sur la sécurité des données visuelles et la cryptographie appliquée.
+                    Conception d’un algorithme de <strong>chiffrement d’image</strong> en Python, basé sur un système <strong>hyperchaotique à six dimensions</strong> et des <strong>S-boxes dynamiques</strong>.
+                    Tests de robustesse et interface graphique.
                 </p>
-                <span class="tag">Python</span>
-                <span class="tag">Cryptographie</span>
-                <span class="tag">Cybersécurité</span>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Cryptographie</span>
+                    <span class="tag">Chaos</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                    <a href="pdfs/rapport_stage_malaisie.pdf" target="_blank" class="btn-small-outline">📄 Voir le rapport</a>
+                </div>
             </div>
 
-            <!-- (Optionnel) Autre projet -->
-            <!--
+            <!-- PROJET 3 -->
             <div class="project-card">
-              <h2>💡 Autre projet</h2>
-              <h3>Contexte ou école (année)</h3>
-              <p>Description du projet en quelques lignes.</p>
-              <span class="tag">Langage</span>
-              <span class="tag">Outil</span>
+                <h2>🎯 Jeu de tir à l’arc (SolidArc)</h2>
+                <h3>ENSICAEN (2024)</h3>
+                <p>
+                    Développement d’un <strong>jeu de tir à l’arc</strong> en JavaFX suivant une architecture <strong>MVP</strong> avec gestion du vent, du score et tests unitaires.
+                </p>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">JavaFX</span>
+                    <span class="tag">MVP</span>
+                    <span class="tag">JUnit</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                    <a href="pdfs/SolidArcReport.pdf" target="_blank" class="btn-small-outline">📄 Voir le rapport</a>
+                </div>
             </div>
-            -->
+
+            <!-- PROJET 4 -->
+            <div class="project-card">
+                <h2>🎾 Gestion d’un club de tennis</h2>
+                <h3>TP J2EE - ENSICAEN (2024)</h3>
+                <p>
+                    Application web <strong>J2EE</strong> pour gérer les adhérents, tournois et inscriptions d’un club de tennis.
+                    Authentification, Hibernate et JSP.
+                </p>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">J2EE</span>
+                    <span class="tag">Hibernate</span>
+                    <span class="tag">JSP</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                    <a href="pdfs/TP3_J2EE_Tennis.pdf" target="_blank" class="btn-small-outline">📄 Voir le rapport</a>
+                </div>
+            </div>
+
+            <!-- PROJET 5 -->
+            <div class="project-card">
+                <h2>📰 Application mobile Flux RSS</h2>
+                <h3>Android Studio (2024)</h3>
+                <p>
+                    Application Android pour récupérer et afficher les actualités via des flux RSS, avec interface moderne et RecyclerView.
+                </p>
+                <div class="tags">
+                    <span class="tag">Android</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">XML</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                </div>
+            </div>
+
+            <!-- PROJET 6 -->
+            <div class="project-card">
+                <h2>📚 Application Quiz (MVP)</h2>
+                <h3>Android Studio (2024)</h3>
+                <p>
+                    Application Android de révision sous forme de quiz, développée selon l’architecture <strong>MVP</strong>.
+                </p>
+                <div class="tags">
+                    <span class="tag">Android</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">MVP</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                </div>
+            </div>
+
+            <!-- PROJET 7 -->
+            <div class="project-card">
+                <h2>📖 Site web de vente de livres</h2>
+                <h3>ENSICAEN (2024)</h3>
+                <p>
+                    Développement d’un site web dynamique permettant de rechercher, consulter et commander des ouvrages.
+                    Utilisation de <strong>PHP</strong>, <strong>PostgreSQL</strong> et <strong>AJAX</strong> pour une navigation fluide.
+                </p>
+                <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">AJAX</span>
+                    <span class="tag">JSON</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" target="_blank" class="btn-small">🔗 Voir le code</a>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -73,7 +165,7 @@
 
 <!-- ===== FOOTER ===== -->
 <footer>
-    <p>© 2025 Samir Amode Mall — Portfolio personnel | <a href="https://www.linkedin.com/in/samir-amode-mall/" target="_blank">LinkedIn</a></p>
+    <p>© 2025 Samir Amode Mall — Portfolio personnel</p>
 </footer>
 </body>
 </html>
