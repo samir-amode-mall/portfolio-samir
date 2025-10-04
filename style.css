@@ -342,3 +342,38 @@ footer a:hover {
 .btn:hover {
     background: var(--light-blue);
 }
+
+/* ---- BOUTONS DE PROJET ---- */
+.project-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.btn-small,
+.btn-small-outline {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-small {
+    background: var(--blue);
+    color: white;
+}
+
+.btn-small:hover {
+    background: var(--light-blue);
+}
+
+.btn-small-outline {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+.btn-small-outline:hover {
+    background: var(--blue);
+    color: white;
+}
